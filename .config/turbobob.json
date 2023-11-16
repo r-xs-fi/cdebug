@@ -1,0 +1,12 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "cdebug",
+	"meta": {
+		"description": "Container image for cdebug - a swiss army knife of container debugging.",
+		"website": "https://github.com/iximiuz/cdebug"
+	},
+	"docker_images": [
+		{ "image": "ghcr.io/r-xs-fi/cdebug", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7", "linux/riscv64"], "tag_latest": true }
+	]
+}
