@@ -1,7 +1,8 @@
 FROM --platform=linux/amd64 fn61/buildkit-golang:20230219_1208_a7139a03 AS builder
 
-ARG TARGETOS=linux
-ARG TARGETARCH=amd64
+# can't have default values here, otherwise they'd overwrite the buildx-supplied ones
+ARG TARGETOS
+ARG TARGETARCH
 
 # WORKDIR /workspace
 
